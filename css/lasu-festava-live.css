@@ -1017,6 +1017,9 @@ strong {
   .heda {
     font-size: 13px !important;
   }
+	.hero-section {
+    padding-bottom: 18rem !important;
+  }
 }
 
 @media screen and (max-width: 350px) {
