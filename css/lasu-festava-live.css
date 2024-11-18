@@ -1,3 +1,10 @@
+/*
+
+TemplateMo 583 Festava Live
+
+https://templatemo.com/tm-583-festava-live
+
+*/
 
 
 /*---------------------------------------
@@ -45,7 +52,18 @@ body {
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
-
+.sp-link {
+  background-color: #EE5007;
+  color: #fff !important;
+  text-align: center;
+  text-decoration: none;
+}
+.sp-link:hover {
+  background-color: #c01f27;
+  color: #fff !important;
+  text-align: center;
+  text-decoration: none;
+}
 h2,
 h3,
 h4,
@@ -392,7 +410,7 @@ strong {
 }
 
 .navbar-nav .nav-link.active, 
-.navbar-nav .nav-link:hover {
+.navbar-nav .nav-link:hover,  {
   color: var(--secondary-color);
 }
 
@@ -1017,22 +1035,16 @@ strong {
   .heda {
     font-size: 13px !important;
   }
-	.hero-section {
-    padding-bottom: 18rem !important;
-	height: 850px;
-  }
-}
-
-@media (max-width: 390px) {
-  .heda {
-    font-size: 13px !important;
-  }
-#section_1{height:850px !important;}
-
   .hero-section {
     padding-bottom: 18rem !important;
   }
+}
+
+@media screen and (max-width: 350px) {
+  .heda {
+    font-size: 13px !important;
+  }
+
   .about-section {
-    /* margin-top: 3em !important; */
   }
 }
